@@ -909,11 +909,11 @@ console.log("Ajetaan Agar.iota... Odota hetki!");
       a.globalAlpha = 1;
       a.fillStyle = '#FFFFFF';
       c = null;
-      c = 'Johdossa Olevat:';
+      c = 'Johdossat:';
       a.font = '30px Ubuntu';
       a.fillText(c, 100 - a.measureText(c).width / 2, 40);
       if (null == x) for (a.font = '20px Ubuntu', b = 0; b < A.length; ++b) c = A[b].name || 'Nimetön Pallo',
-      ka || (c = 'Nimetön Pallo'),
+      ka || (c = 'Nimetön'),
       - 1 != F.indexOf(A[b].id) ? (m[0].name && (c = m[0].name), a.fillStyle = '#FFAAAA')  : a.fillStyle = '#FFFFFF',
       c = b + 1 + '. ' + c,
       a.fillText(c, 100 - a.measureText(c).width / 2, 70 + 24 * b);
